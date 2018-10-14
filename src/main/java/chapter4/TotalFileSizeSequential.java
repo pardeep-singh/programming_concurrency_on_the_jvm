@@ -23,7 +23,7 @@ public class TotalFileSizeSequential {
 
         final long end = System.nanoTime();
         System.out.println("Total Size:" + total);
-        System.out.println("Time telne:" + (end - start) / 1.0e9);
+        System.out.println("Time taken:" + (end - start) / 1.0e9);
     }
 
 }
